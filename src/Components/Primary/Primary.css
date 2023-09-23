@@ -7,7 +7,23 @@ background-color: #E23744;
 .color2{
     color: #0E2368;
 }
-.bg{
+/* .bg{
     height: 804px;
     
 }
+.img{
+    height: 839px; */
+/* } */
+.bg, .img {
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .bg {
+      height: 804px; 
+    }
+  
+    .img {
+      height: 839px;
+    }
+  }

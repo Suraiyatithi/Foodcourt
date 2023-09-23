@@ -3,7 +3,8 @@ import img from '../../assets/girl (lp).png'
 
 const About = () => {
     return (
-        <div className='mt-24 ml-24 mr-24'>
+   <div  style={{background:"#F8F8F8"}} className="">
+         <div className='mt-24 lg:ml-24 lg:mr-24'>
            <div className="grid lg:grid-cols-2 lg:gap-24 ">
             <div className="text-left">
                 <img className='' src={img} alt="" />
@@ -17,6 +18,7 @@ const About = () => {
             </div>
             </div> 
         </div>
+   </div>
     );
 };
 
